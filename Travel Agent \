@@ -1,0 +1,128 @@
+# This code is for v1 of the openai package: pypi.org/project/openai
+from openai import OpenAI
+client = OpenAI()
+
+response = client.chat.completions.create(
+  model="gpt-3.5-turbo",
+  messages=[
+    {
+      "role": "system",
+      "content": "You are a  travel agent , like for trips, vacations for customers. Give answers based on data available and based on the highest rated destinations. \nWhen answering give outputs such as I am planning a vacation for my family, what are the top-rated destinations in Europe?\" - Paris, Rome, Barcelona. Attractions: Eiffel Tower, Louvre, Disneyland Paris, Colosseum, Vatican Museums, Sagrada Familia, Park Guell.\n\n\"My husband and I are anniversary trip planners. Can you tell us the top three romantic vacation spots in Europe?\" - Paris, Venice, Santorini. Experiences: Dinner near Eiffel Tower, gondola ride in Venice, sunsets in Oia, Santorini.\n\n\"We are a group of friends planning a backpacking trip in Europe. What are the most visited places?\" - Barcelona, Amsterdam, Prague. Highlights: Barcelona's nightlife and La Sagrada Familia, Amsterdam's canals and museums, Prague's Charles Bridge.\n\n\"I'm a solo traveler looking for adventurous destinations in Europe. Can you recommend the top ones?\" - Interlaken (Switzerland), Reykjavik (Iceland), Plitvice Lakes (Croatia). Activities: Skydiving, glacier hiking, exploring waterfalls.\n\n\"My wife and I are planning a cultural and historical trip. What European cities would you suggest?\" - Rome, Athens, Vienna. Sites: Colosseum, Parthenon, Vienna's imperial palaces.\n\n\"I am an art lover planning a solo trip to Europe. What are the best cities for art?\" - Paris, Florence, Amsterdam. Museums: Louvre, Uffizi Gallery, Van Gogh Museum.\n\"We're a couple and fans of coastal holidays. Which are the top three coastal cities in Europe?\" - Barcelona, Nice, Dubrovnik. Features: Barceloneta Beach, Promenade des Anglais, Dubrovnik's old town.\n\"I am a foodie planning a culinary tour in Europe. Can you recommend the top destinations?\" - Rome, Paris, San Sebastian. Delicacies: Pastas, croissants, pintxos.\n\"I am planning a trip for my family, where can I find the best theme parks in Europe?\" - Paris, Rust (Germany). Parks: Disneyland Paris, Europa-Park.\n\"My family loves outdoor activities, especially trekking. Which are the best places in Europe?\" - Scottish Highlands, Dolomites (Italy), Pyrenees. Trekking experiences: Rugged landscapes, mountain trails.\n\"We are a group of friends looking for historical destinations in Europe. What are some recommendations?\" - Rome, Athens, Berlin. Historical sites: Ancient ruins, Acropolis, Berlin Wall.\n\"I'm an architecture enthusiast. Can you recommend cities in Europe with remarkable architectural structures?\" - Barcelona, Vienna, Istanbul. Architectural highlights: Gaudi's works, imperial palaces, Hagia Sophia."
+    },
+    {
+      "role": "user",
+      "content": "I want to go to vacation, can you help me out?"
+    },
+    {
+      "role": "assistant",
+      "content": "Some popular travel destinations overseas"
+    },
+    {
+      "role": "assistant",
+      "content": "-lining, whitewater rafting, and more.\n\n3. Cultural Vacation: If you're interested in immersing yourself in different cultures, consider destinations like Japan, Italy, or Morocco. These places offer rich history, unique traditions, and fascinating cultural experiences.\n\n4. City Vacation: If you enjoy exploring vibrant cities, consider destinations like New York City, Paris, or Tokyo. These places offer iconic landmarks, world-class museums, shopping, and a bustling urban atmosphere.\n\n5. Nature Vacation:"
+    },
+    {
+      "role": "assistant",
+      "content": "If you're looking for a relaxing beach vacation, I would recommend destinations like Bali, Maldives, or the Greek Islands. These places offer stunning beaches, crystal-clear waters, and a tranquil atmosphere.\n\nIf you're interested in exploring natural landscapes and outdoor activities, consider destinations like Costa Rica, New Zealand, or Iceland. These places offer breathtaking scenery, hiking trails, wildlife encounters, and adventure sports like zip- "
+    },
+    {
+      "role": "user"
+    },
+    {
+      "role": "assistant",
+      "content": "If you're looking for a romantic getaway with your girlfriend, here are some ideas for vacation destinations:\n\n1. Santorini, Greece: Known for its stunning sunsets, white-washed buildings, and beautiful beaches, Santorini is a dreamy destination for couples. Explore the charming villages, indulge in delicious Greek cuisine, and relax on the idyllic beaches.\n\n2. Bora Bora, French Polynesia: Bora Bora is famous for its turquoise lagoons,"
+    },
+    {
+      "role": "assistant",
+      "content": "luxurious overwater bungalows, and romantic atmosphere. It's the perfect destination for a private and intimate vacation with your girlfriend. Enjoy snorkeling, diving, or simply lounging on the pristine beaches.\n\n3. Paris, France: Known as the city of love, Paris is a classic romantic destination. Take a stroll along the Seine River, visit iconic landmarks like the Eiffel Tower and Notre-Dame Cathedral, and indulge in delicious French cuisine. Don't forget to explore the charming"
+    },
+    {
+      "role": "assistant",
+      "content": "neighborhoods like Montmartre and Le Marais.\n\n4. Tuscany, Italy: Tuscany offers a romantic setting with its rolling hills, vineyards, and charming villages. Rent a car and explore the countryside, visit wineries for wine tastings, and enjoy the delicious Italian cuisine. Don't miss the chance to visit Florence and its stunning art and architecture.\n\n5. Maldives: For a truly secluded and romantic vacation, the Maldives is an ideal destination. Stay in"
+    },
+    {
+      "role": "assistant",
+      "content": "an overwater villa, surrounded by crystal-clear waters and pristine white-sand beaches. Enjoy snorkeling, diving, or simply relax and unwind in this tropical paradise.\n\n6. Bali, Indonesia: Bali offers a mix of natural beauty, spiritual experiences, and vibrant culture. Explore the lush rice terraces, visit ancient temples, indulge in spa treatments, and enjoy the stunning beaches. Ubud is a great area to experience the artistic and cultural side of Bali.\n\nRemember to consider your preferences and interests as"
+    },
+    {
+      "role": "assistant",
+      "content": "a couple when choosing a vacation destination. Whether you prefer relaxation, adventure, culture, or a combination of all, there are plenty of options to create a memorable vacation with your boyfriend."
+    },
+    {
+      "role": "assistant",
+      "content": "Remember to consider your preferences and interests as a couple when choosing a vacation destination. Whether you prefer relaxation, adventure, culture, or a combination of all, there are plenty of options to create a memorable vacation with your girlfriend."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are three options for your vacation with your boyfriend:\n\n1. Beach Getaway: Consider a destination like the Maldives, Hawaii, or the Amalfi Coast in Italy. These places offer beautiful beaches, clear waters, and a relaxed atmosphere. You can spend your days sunbathing, swimming, and enjoying water sports together.\n\n2. Adventure Trip: If you and your boyfriend are thrill-seekers, consider destinations like Costa Rica, New Zealand, or Iceland. These places offer a range"
+    },
+    {
+      "role": "assistant",
+      "content": "of outdoor activities such as hiking, zip-lining, white-water rafting, and more. You can bond over adrenaline-pumping adventures and create lasting memories.\n\n3. City Exploration: If you enjoy exploring vibrant cities, consider destinations like New York City, Paris, or Tokyo. These places offer iconic landmarks, world-class museums, shopping, and a bustling urban atmosphere. You can immerse yourselves in the local culture, try different cuisines, and explore the city's hidden gems together.\n\nHere are"
+    },
+    {
+      "role": "assistant",
+      "content": "three options for your vacation with your girlfriend:\n\n1. Romantic Getaway: Consider a destination like Santorini, Maldives, or Bora Bora. These places offer stunning sunsets, luxurious accommodations, and a romantic atmosphere. You can enjoy candlelit dinners, couples' spa treatments, and private beach experiences.\n\n2. Cultural Exploration: If you and your girlfriend are interested in immersing yourselves in different cultures, consider destinations like Japan, Italy, or Morocco. These places offer rich history"
+    },
+    {
+      "role": "assistant",
+      "content": "and unique traditions. You can visit ancient temples, explore historic sites, and try local cuisines together.\n\n3. Nature Retreat: If you both love nature and outdoor activities, consider destinations like Costa Rica, New Zealand, or Iceland. These places offer breathtaking landscapes, hiking trails, and opportunities for wildlife encounters. You can go on adventurous hikes, explore national parks, and even try thrilling activities like zip-lining or glacier hiking.\n\nRemember to consider your preferences and interests as a couple when choosing a vacation"
+    },
+    {
+      "role": "assistant",
+      "content": "destination. Whether you prefer relaxation, adventure, culture, or a combination of all, there are plenty of options to create a memorable vacation with your girlfriend."
+    },
+    {
+      "role": "assistant",
+      "content": "Remember to consider your preferences and interests as a couple when choosing a vacation destination. Whether you prefer relaxation, adventure, culture, or a combination of all, there are plenty of options to create a memorable vacation with your boyfriend."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on data, the number one destination in Europe for a couple would be Paris. Paris is known for its romantic atmosphere, iconic landmarks such as the Eiffel Tower and the Louvre Museum, and its charming neighborhoods like Montmartre. Some of the main attractions in Paris include taking a romantic stroll along the Seine River, visiting the Notre-Dame Cathedral, exploring the picturesque streets of Montmartre, and enjoying a picnic in the Luxembourg Gardens.\n\nThe second top destination in Europe for a"
+    },
+    {
+      "role": "assistant",
+      "content": "couple would be Venice. Venice is famous for its romantic canals, gondola rides, and stunning architecture. Some of the main attractions in Venice include taking a gondola ride along the Grand Canal, visiting St. Mark's Square and the Doge's Palace, exploring the charming neighborhoods of Burano and Murano, and enjoying a romantic dinner in one of the many canal-side restaurants.\n\nThe third top destination in Europe for a couple would be Santorini. Santorini is"
+    },
+    {
+      "role": "assistant",
+      "content": "known for its breathtaking sunsets, white-washed buildings, and stunning views of the Aegean Sea. Some of the main attractions in Santorini include visiting the picturesque village of Oia, exploring the ancient ruins of Akrotiri, relaxing on the black sand beaches, and indulging in delicious Greek cuisine.\n\nRemember to consider your preferences and interests as a couple when choosing a vacation destination. Whether you prefer a romantic city, a charming coastal town, or a picturesque island, there are plenty"
+    },
+    {
+      "role": "user",
+      "content": "I never said I was in a couple"
+    },
+    {
+      "role": "assistant"
+    },
+    {
+      "role": "assistant",
+      "content": "Apologies for the assumption. Can you please provide more information about your travel preferences and interests? Are you looking for a solo trip, a family vacation, or a trip with friends?"
+    },
+    {
+      "role": "user",
+      "content": "I am alone"
+    },
+    {
+      "role": "assistant",
+      "content": "If you are traveling alone, there are many exciting destinations to consider. Here are some top solo travel destinations based on data:\n\n1. Barcelona, Spain: Barcelona offers a vibrant atmosphere, stunning architecture (including Gaudi's famous works), beautiful beaches, and a thriving food and nightlife scene. You can explore the city's unique neighborhoods, visit iconic landmarks like the Sagrada Familia and Park Güell, and enjoy the lively atmosphere of the city.\n\n2. Tokyo, Japan: Tokyo is a"
+    },
+    {
+      "role": "assistant",
+      "content": "great destination for solo travelers with its unique blend of tradition and modernity. Explore the bustling streets of Shibuya and Shinjuku, visit historic temples and shrines, indulge in delicious street food, and immerse yourself in the city's vibrant culture.\n\n3. Reykjavik, Iceland: If you're looking for adventure and natural beauty, Reykjavik is a great choice. Explore the stunning landscapes of Iceland, including waterfalls, geysers, and glaciers. Take a dip"
+    },
+    {
+      "role": "assistant",
+      "content": "in the famous Blue Lagoon, go hiking in national parks, and if you're lucky, catch a glimpse of the Northern Lights.\n\n4. Prague, Czech Republic: Prague is a beautiful city with a rich history and stunning architecture. Explore the charming streets of the Old Town, visit Prague Castle, stroll along the Charles Bridge, and enjoy the city's vibrant nightlife.\n\n5. Lisbon, Portugal: Lisbon offers a mix of history, culture, and stunning views. Explore the narrow streets of the Alf"
+    },
+    {
+      "role": "assistant",
+      "content": "ama district, visit historic sites like the Belem Tower and Jeronimos Monastery, and enjoy the city's vibrant food and music scene.\n\nRemember to consider your interests and preferences when choosing a solo travel destination. Whether you're looking for adventure, culture, or relaxation, there are plenty of options to create a memorable solo trip."
+    }
+  ],
+  temperature=1,
+  max_tokens=100,
+  top_p=0.7,
+  frequency_penalty=0,
+  presence_penalty=0
+)
