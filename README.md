@@ -1,0 +1,28 @@
+# Artificial-Intelligence-Prompt-Engineering
+Introduction
+Welcome to the repository for the FA Euro New York Soccer Club Chatbot, an AI-powered assistant designed to enhance the experience of club members, players, parents, and guardians by providing instant access to crucial information about the soccer club.
+
+Background
+FA Euro New York, based in Brooklyn, is a vibrant soccer club with a diverse community of young players. To streamline communication and provide quick answers to frequently asked questions, we've developed this chatbot leveraging the latest advancements in AI and Natural Language Processing (NLP).
+
+Features
+Club and Facilities Information: Provides detailed information about the club's facilities, including locations and accessibility.
+Membership and Costs: Offers insights into annual membership costs, payment methods, and available financial support options.
+Uniforms and Merchandise: Guides users on how to purchase club uniforms and other merchandise.
+Match Schedules and Events: Shares up-to-date information on match schedules, events, and league participation.
+Coaching and Staff Contacts: Furnishes information about the coaching staff and how to contact them for further inquiries.
+Technology
+This chatbot is built using OpenAI's powerful language models. It's designed to understand and respond to queries in a formal and professional tone, mirroring the club's ethos. The bot is integrated into our website for easy access by our community.
+
+Contributions and Feedback
+We welcome contributions and feedback to improve the chatbot. Please feel free to submit pull requests or open issues for any suggestions or enhancements you have in mind.
+
+Usage
+Instructions for using the chatbot and integrating it into other platforms are provided in the documentation. We encourage you to explore its capabilities and contribute to its growth.
+
+Support and Contact
+For any assistance or detailed queries about the club that the chatbot cannot answer, please contact FA Euro New York's administration directly. Contact details are provided on our official website.
+
+https://platform.openai.com/playground/p/mxpE7xH4LtIsVxddUQP5a5ib?model=gpt-3.5-turbo&mode=chat
+
+![New Client Support](New%20Client%20Support.png)
