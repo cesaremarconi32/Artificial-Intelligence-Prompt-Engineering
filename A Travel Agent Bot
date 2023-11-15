@@ -1,3 +1,5 @@
+This Bot was created with OpenAi Playground. The idea behind this bot was to create a bot to help users receive better recommendations when it comes to travelling.
+
 # This code is for v1 of the openai package: pypi.org/project/openai
 from openai import OpenAI
 client = OpenAI()
